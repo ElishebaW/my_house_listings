@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "esnext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "allowUnreachableCode": false,
+    "noEmit": true,
+    "jsx": "preserve",
+    "plugins": [{ "name": "typescript-tslint-plugin" }],
+    "typeRoots": ["./types", ".node_modules/@types"]
+  },
+  "include": ["src"],
+  "compileOnSave": false
+}
